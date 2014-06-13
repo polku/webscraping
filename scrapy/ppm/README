@@ -3,5 +3,7 @@ Utilisation de scrapy pour recuperer les transferts de la journee dans PPM
 Fichiers importants :
 - ppm/ppm/items.py : description du modele de donnees
 - ppm/ppm/spiders/test.py : code pour recup les donnees
-- ppm/transf.csv : exemple de sortie ontenue avec la commande suivante
-scrapy crawl ppm -o transf.csv -t csv
+- ppm/transf.csv : exemple de sortie obtenue
+
+
+Commande : scrapy crawl ppm -o `date -I`.csv -t csv
