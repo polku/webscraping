@@ -1,6 +1,0 @@
-sel.xpath('//tr/td[@title="Age"]/text()').extract()
-sel.xpath('//tr/td[@title="Average quality"]/text()').extract()
-sel.xpath('//tr/td[@title="Career longevity"]/span/text()').extract()
-sel.xpath('//tr/td[@title="Experience"]/text()').extract()
-sel.xpath('//tr/td[@title="Overall rating"]/text()').extract()
-sel.xpath('//tr/td[@class=left_align]/div/text()').re(r'(?<=Price:) .*')
